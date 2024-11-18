@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Activitats2
+/*namespace Activitats2
 {
     internal class Fourteen
     {
@@ -25,3 +25,4 @@ namespace Activitats2
         }
     }
 }
+*/
