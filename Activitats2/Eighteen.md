@@ -15,6 +15,7 @@ del 120 al infinito
 - 1
 
 
+
 *Són valors “extrems” perquè estan al límit de l’interval assignat*
 
 |nom del cas de prova|descripció|entrada|accions|resultat esperat|resultat obtingut|

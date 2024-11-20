@@ -18,11 +18,18 @@
 
   <ItemGroup>
     <Reference Include="activitiesUtils">
+
       <HintPath>bin\Debug\net8.0\activitiesUtils18.dll</HintPath>
     </Reference>
   </ItemGroup>
 
  
+
+
+      <HintPath>..\dll\activitiesUtils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />

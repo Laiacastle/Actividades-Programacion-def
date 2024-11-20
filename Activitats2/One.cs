@@ -1,7 +1,7 @@
 ﻿using System;
 
-
-/*namespace Activitats2
+/*
+namespace Activitats2
 {
     public class One
     {
