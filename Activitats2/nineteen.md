@@ -1,4 +1,5 @@
 ﻿# Exercici 19
+prova push
 
 ## casos d'equivalència:
 - menors → 11, 0 (50%)
