@@ -1,4 +1,6 @@
 ﻿using System;
+
+
 /*namespace Activitats2
 {
     public class Fiveteen
@@ -16,6 +18,7 @@
             const string MsgOne = "Write a number please";
             const string MsgError = "Wrong Format";
             const string MsgEnd = "the number decimals are: {0} and the enter number is : {1}";
+
             Console.WriteLine(MsgOne);
             try
             {
