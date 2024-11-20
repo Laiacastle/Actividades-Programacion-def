@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -18,18 +18,9 @@
 
   <ItemGroup>
     <Reference Include="activitiesUtils">
-
-      <HintPath>bin\Debug\net8.0\activitiesUtils18.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
- 
-
-
       <HintPath>..\dll\activitiesUtils.dll</HintPath>
     </Reference>
   </ItemGroup>
-
 
   <ItemGroup>
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
