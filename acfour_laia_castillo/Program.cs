@@ -5,6 +5,22 @@ namespace AcFor
 
     public class AcFor
     {
+        public static int[] OrderDescArr(int[] nums){
+            for (int i = 0; i < marks.Length - 1; i++)
+            {
+	            for (int j = i + 1; j < marks.Length; j++)
+	            {
+	                //si el primer numero es mes petit que el segon intercanvien posicions
+		            if (nums[i] < nums[j])
+		            {
+			            int aux = marks[i];
+			            nums[i] = nums[j];
+			            nums[j] = aux;
+		            }
+            	}
+
+             }
+        }
         public static void Main()
         {
             const string MsgOne = "Write the numbers you want to almacenar", 
@@ -31,8 +47,16 @@ namespace AcFor
                 Console.WriteLine(MsgEnd);
                 for (int i = 0; i < cuantitatNums; i++)
                 {
-                   Console.WriteLine(nums[i]);
+                   Console.Write($"{nums[i]}");
                 }
+                
+                //printa la llista ordenada descendent
+                Console.WriteLine(MsgEnd);
+                for (int i = 0; i < cuantitatNums; i++)
+                {
+                   Console.Write($"{OrderDescArr(nums)[i]} ");
+                }
+                
             }
             catch (FormatException)
             {
